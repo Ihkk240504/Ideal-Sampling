@@ -1,7 +1,10 @@
 # Ideal-Sampling
-Aim
+# Aim
+
 To study and implement the process of ideal sampling and observe the sampled waveform.
-Tools required
+
+# Tools required
+
 Python (for simulation)
 
 Digital Storage Oscilloscope (for hardware verification)
@@ -11,7 +14,8 @@ Signal Generator
 Low Pass Filter
 
 Breadboard & Connecting Wires
-Program
+
+# Program
 `````````````
 fs = 1000
 t = np.arange(0, 0.1, 1/fs)
@@ -56,10 +60,10 @@ plt.tight_layout()
 
 plt.show()
 `````````````````````
-Output Waveform
+# Output Waveform
 ![image](https://github.com/user-attachments/assets/4b2e04a9-8061-4cf5-afd0-6fdff36c9b6e)
 
-Results
+# Results
 The sampled signal retains the information of the original signal.
 
 The spacing between samples is uniform, as defined by the sampling interval.
